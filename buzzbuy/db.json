@@ -1,0 +1,27 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "image" : "https://www.brookstone.com/collections/osaki-massage-chairs/products/osaki-pro-first-class",
+            "title" : "Osaki Pro First Class Massage Chair",
+            "price" :  3499.00,
+            "description" : "Free Two Year Extended Warranty White Glove Delivery 4-5 Weeks + Free 2 Year Extended Warranty"
+        }
+    ],
+    "users" : [
+        {
+             "email" : "sharvarihupare15@gmail.com",
+             "password" : "shara@123"
+    }
+   ],
+
+    "registration_user"  : [
+        {
+        "first_name" : "",
+        "last_name" : "",
+        "email" : "",
+        "password" : ""
+    }
+    ]
+
+}
