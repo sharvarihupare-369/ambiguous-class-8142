@@ -1,0 +1,22 @@
+.prev-Btn,.next-Btn{
+    border: none;
+    width: 60px;
+    height: 100%;
+   
+    /* top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0 , 0, 0,0 );
+ 
+}
+
+.prev-Btn{
+    position: absolute;
+    left : 10px
+}
+
+.next-Btn{
+    
+    right:0px;
+}
