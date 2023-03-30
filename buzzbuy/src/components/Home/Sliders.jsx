@@ -19,7 +19,6 @@ function Sliders() {
   const handleNext = () => {
     setCount(count + 1);
     let width = cont.clientWidth;
-    
     cont.scrollLeft = cont.scrollLeft + width;
     console.log(width);
   };

@@ -25,17 +25,17 @@ import {
 // ];
 
 function Navbar() {
-  const defaultStyle = {
-    textDecoration: "none",
-    color: "#50514F",
-  };
+  // const defaultStyle = {
+  //   textDecoration: "none",
+  //   color: "#50514F",
+  // };
 
-  const activeStyle = {
-    textDecoration: "underline",
-    textDecorationThickness: "3px",
-    // padding : "4px",
-    color: "black",
-  };
+  // const activeStyle = {
+  //   textDecoration: "underline",
+  //   textDecorationThickness: "3px",
+  //   // padding : "4px",
+  //   color: "black",
+  // };
   return (
     <div>
       <Center
@@ -50,9 +50,10 @@ function Navbar() {
 
       <Box h="90px" p="10px" bg="blackAlpha.50">
         <Flex justifyContent="space-between" alignItems="center">
-          <Box w="10%">
+          <Box w="10%" >
             <Image
               w="100%"
+             
               ml="100px"
               borderRadius="10px"
               border="1px solid"
@@ -99,7 +100,7 @@ function Navbar() {
           justifyContent: "space-around",
           width: "90%",
           margin: "10px auto",
-          fontWeight: "200",
+          fontWeight: "300",
           color: "#50514F",
         }}
       >

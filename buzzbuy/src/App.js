@@ -9,18 +9,24 @@ import Featured from './components/Home/Featured';
 import ImageCarousal from './components/Home/ImageCarousal';
 import Sliders from './components/Home/Sliders';
 import Main from './components/Home/Main';
+import Signup from './components/SigninFun/Signup';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
   return (
     <div className="App" >
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Main/> */}
-      <SliderPro/>
+      {/* <SliderPro/>
       
       <Sliders/>
       <Featured/>
-      <Footer />
+      <Footer /> */}
+           <ToastContainer>
+
+           </ToastContainer>
+      <Signup/>
     </div>
   );
 }
