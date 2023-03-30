@@ -1,0 +1,21 @@
+
+
+.signuptext{
+  
+    font-weight : "400" 
+}
+
+.subBtn{
+    border:2px solid grey;
+    padding:10px 30px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.subBtn:hover{
+     background-color: gray;
+}
+
+.errmsg{
+    color: red;
+}
