@@ -14,7 +14,7 @@ function Main(){
         <div style={{width:"80%", margin:"auto" , marginTop:"30px" }}>
             <div style={{width:"60%"}}>
 
-     <CarouselProvider
+     {/* <CarouselProvider
         naturalSlideWidth={200}
         naturalSlideHeight={200}
         totalSlides={3}
@@ -32,14 +32,14 @@ function Main(){
           </Slide>
         </Slider>
         <ButtonBack className='prev-Btn'>
-        <FontAwesomeIcon icon={faAngleLeft} size="xl" />
-        </ButtonBack>
+        {/* <FontAwesomeIcon icon={faAngleLeft} size="xl" /> */}
+        {/* </ButtonBack>
         <ButtonNext className='next-Btn'>
-        <FontAwesomeIcon icon={faAngleRight} size="xl" />
-        </ButtonNext>
-      </CarouselProvider>
+        {/* <FontAwesomeIcon icon={faAngleRight} size="xl" /> */}
+        {/* </ButtonNext>
+      </CarouselProvider> */} 
         </div>
-    </div>
+    </div> 
     )
 
 }

@@ -14,8 +14,68 @@
 
 .subBtn:hover{
      background-color: gray;
+     transition: smooth;
 }
 
 .errmsg{
     color: red;
+}
+
+.headsign{
+    fontweight:"400";
+}
+
+.inpF{
+     border: 1px solid gray;   
+     width:80%;
+     padding: 10px; 
+     border-radius: 5px;
+} 
+
+.inpF:focus{
+    border: "1px solid gray";
+}
+
+.parentCont{
+    width: 90%;
+    margin-top: 70px;
+    margin-bottom: 90px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    /* border: 1px solid red; */
+
+}
+
+.formDiv{
+    padding: 20px;
+    width: 50%;
+    /* border : 1px solid red; */
+}
+
+.loginDiv{
+    padding: 20px;
+    width: 50%;
+    /* border : 1px solid red; */
+}
+
+.loginBtn{
+    margin-top: 15px;
+    height: 48px;
+    width: 150px;
+    padding : 0 30px ;
+    border : 2px solid green;
+    border-radius : 7px;
+    color: white;
+   font-size: 17px;
+    background-color: #65C297;
+  
+   
+}
+
+
+.loginBtn:hover{
+    background-color: #A5D6A7;
+    transition: smooth;
 }

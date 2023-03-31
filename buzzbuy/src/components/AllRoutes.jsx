@@ -15,6 +15,10 @@ import Accessories from "../Pages/navbar/Accessories"
 import Entertainment from "../Pages/navbar/Entertainment"
 import Gifts from "../Pages/navbar/Gifts"
 import Sale from "../Pages/navbar/Sale"
+import Signup from './SigninFun/Signup'
+import Addproduct from '../Pages/Addproduct'
+import Admin from './Admin'
+import Product from '../Pages/Products/Product'
 
 
 function AllRoutes() {
@@ -35,6 +39,10 @@ function AllRoutes() {
             <Route path="/entertainment" element={<Entertainment/>} />
             <Route path="/gifts" element={<Gifts/>} />
             <Route path="/sale" element={<Sale/>} />
+            <Route path="/signup" element={<Signup/>} />
+            <Route path="/admin" element={<Admin/>} />
+            <Route path="/addproduct" element={<Addproduct/>} />
+            <Route path="/product" element={<Product/>} />
         </Routes>
     </div>
   )
