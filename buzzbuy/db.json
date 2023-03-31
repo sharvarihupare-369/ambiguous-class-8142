@@ -6,6 +6,38 @@
       "title": "Osaki Pro First Class Massage Chair",
       "price": 3499,
       "description": "Free Two Year Extended Warranty White Glove Delivery 4-5 Weeks + Free 2 Year Extended Warranty"
+    },
+    {
+      "proid": "2",
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/LMP-M1033_2_800x.jpg?v=1653420855",
+      "title": "Cellreturn Premium LED Face Mask",
+      "price": "1200",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 2
+    },
+    {
+      "proid": "2",
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/LMP-M1033_2_800x.jpg?v=1653420855",
+      "title": "Cellreturn Premium LED Face Mask",
+      "price": "1200",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 3
+    },
+    {
+      "proid": "3",
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/slny01_7.jpg?v=1665092165",
+      "title": "Solaris Laboratories NY \"How To Glow\" LED Light Therapy Mask",
+      "price": "115",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 4
+    },
+    {
+      "proid": "5",
+      "image": "wdSASADAS",
+      "title": "ASFDSC",
+      "price": "123",
+      "desc": "ADSAD",
+      "id": 5
     }
   ],
   "users": [
@@ -29,6 +61,19 @@
       "lname": "hupare",
       "email": "vinayak12@gmail.com",
       "password": "v12345"
+    },
+    {
+      "id": "Sharvari11",
+      "fname": "Sharvari",
+      "lname": "Hupare",
+      "email": "sharvarihupare151@gmail.com",
+      "password": "sh123"
+    }
+  ],
+  "admin": [
+    {
+      "email": "sharvari@gmail.com",
+      "password": "admin@123"
     }
   ]
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, Navigate, NavLink } from "react-router-dom";
 import { Box, Text, Flex, Input, Center, Image } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,6 +8,7 @@ import {
   faSearch,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 //  const links = [
 //   { path: "/", text: "Home" },
 //   { path: "/new", text: "New" },
@@ -36,6 +37,15 @@ function Navbar() {
   //   // padding : "4px",
   //   color: "black",
   // };
+
+ 
+    const handleUser = () =>{
+      navigate("/signup")
+
+    }    
+     const navigate = useNavigate()
+  
+
   return (
     <div>
       <Center
@@ -81,7 +91,7 @@ function Navbar() {
           </Box>
 
           <Flex justifyContent="space-around" mr="5%">
-            <Box p="10px">
+            <Box p="10px"  onClick={handleUser}>
               <FontAwesomeIcon icon={faUser} size="xl" color="grey" />
             </Box>
             <Box p="10px">
@@ -117,6 +127,8 @@ function Navbar() {
         <Link to="/entertainment">Entertainment</Link>
         <Link to="/gifts">Gifts</Link>
         <Link to="/sale">sale</Link>
+        {/* <Link to="/login">Signup</Link> */}
+        
       </Box>
     </div>
   );

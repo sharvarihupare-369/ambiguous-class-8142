@@ -2,6 +2,7 @@ import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect } from "react";
 import ImageCarousal from "./ImageCarousal";
+import { Heading } from "@chakra-ui/react";
 import "./Sliders.css";
 
 function Sliders() {
@@ -25,6 +26,7 @@ function Sliders() {
 
   return (
     <>
+        <Heading as="h4" size="md" textAlign={"center"} color="gray.600" mt="50px" fontWeight="300" textTransform={"Uppercase"} >best sellers</Heading>
       <div className="product_carousal">
         <button className="prev-btn" onClick={handlePrev}>
          <FontAwesomeIcon icon={faAngleLeft} size="xl" />
