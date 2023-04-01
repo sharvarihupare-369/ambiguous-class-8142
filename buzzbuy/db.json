@@ -2,43 +2,461 @@
   "products": [
     {
       "id": 1,
-      "image": "https://www.brookstone.com/collections/osaki-massage-chairs/products/osaki-pro-first-class",
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/4d_escape_grey_1_800x.jpg?v=1672940531",
       "title": "Osaki Pro First Class Massage Chair",
       "price": 3499,
       "description": "Free Two Year Extended Warranty White Glove Delivery 4-5 Weeks + Free 2 Year Extended Warranty"
     },
     {
-      "proid": "2",
       "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/LMP-M1033_2_800x.jpg?v=1653420855",
       "title": "Cellreturn Premium LED Face Mask",
-      "price": "1200",
+      "price": "55.00",
       "desc": "Final Sale - No Exchanges or Returns",
       "id": 2
     },
     {
-      "proid": "2",
-      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/LMP-M1033_2_800x.jpg?v=1653420855",
-      "title": "Cellreturn Premium LED Face Mask",
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/ZC-7ZJG-1XHA_Large_Grey_1_1000x.jpg?v=1654723182",
+      "title": "Ergonomic Travel Neck Pillow Relax",
       "price": "1200",
       "desc": "Final Sale - No Exchanges or Returns",
       "id": 3
     },
     {
-      "proid": "3",
       "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/slny01_7.jpg?v=1665092165",
-      "title": "Solaris Laboratories NY \"How To Glow\" LED Light Therapy Mask",
+      "title": "Solaris Laboratories NY LED Light Therapy Mask",
       "price": "115",
       "desc": "Final Sale - No Exchanges or Returns",
       "id": 4
     },
     {
-      "proid": "5",
-      "image": "wdSASADAS",
-      "title": "ASFDSC",
-      "price": "123",
-      "desc": "ADSAD",
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/6619_WHITE_1_800x.jpg?v=1676665647",
+      "title": "Fat Iron Pro At-Home Body Slimming Device",
+      "price": "269.00",
+      "desc": "Final Sale - No Exchanges or Returns",
       "id": 5
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/95512_black_1_800x.png?v=1654544094",
+      "title": "L'Atelier du Vin Black Oeno Motion Corkscrew",
+      "price": "170.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 6
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/blanketv4-v1_1_750x.jpg?v=1675473860",
+      "title": "HigherDOSE Infrared Sauna Blanket",
+      "price": "599.00",
+      "desc": "Final Sale - No Exchanges or Returns HigherDOSE Red Light Face Mask NEW ARRIVAL quickview  HigherDOSE Red Light Face Mask $299.00",
+      "id": 7
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/mask-v1_1_750x.jpg?v=1675473860",
+      "title": " HigherDOSE Red Light Face Mask",
+      "price": "299.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 8
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/grv-spmg-012_1_750x.jpg?v=1676663355",
+      "title": "MiHIGH Relax Heated Massage Gun",
+      "price": "150.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 9
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/PM-ON-25_ONYX_4_750x.jpg?v=1678742313",
+      "title": "WAATR PureMax 4D Filtered Self-Cleaning Water Bottle",
+      "price": "149.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 10
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/CC-PRO-ON-17_ONYX_1_750x.jpg?v=1678732662",
+      "title": "WAATR CrazyCap Premium Light Self-Cleaning Water Bottle",
+      "price": "99.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 11
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/1_a7fe21ab-760d-46ab-bcf4-28e1e721eaf3_750x.jpg?v=1669205220",
+      "title": "L'Atelier du Vin - Gard'vin On/Off Power Wine Preservation ",
+      "price": "120.00",
+      "desc": "",
+      "id": 12
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/7ZSLIM3E-OOO_WHITE_7_750x.jpg?v=1678741921",
+      "title": "Slim Three Bidet Toilet Seat",
+      "price": "399.00",
+      "desc": "",
+      "id": 13
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/mhbw007_1_750x.jpg?v=1676810430",
+      "title": "MiHIGH Portable Infrared  ",
+      "price": "199.20",
+      "desc": "",
+      "id": 14
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/22.10.0011_1_750x.jpg?v=1678314203",
+      "title": "Smile Makers The Vibrator",
+      "price": "40.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 15
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/22.04.0021_slow_1_750x.jpg?v=1678314111",
+      "title": "Smile Makers Erotic Kneads Massage Oil",
+      "price": "29.95",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 16
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/6572_6_750x.jpg?v=1680332653",
+      "title": "LuminaNRG Mini Glow Pro - LED Face Tool",
+      "price": "$99.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 17
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/ezgif-1-3ea8a11ebe_1000x.png?v=1678298458",
+      "title": "RGB Infinity Mirror Light LED Diff",
+      "price": "349.00",
+      "desc": "",
+      "id": 18
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/FIREPLACE-TT_1_750x.jpg?v=1680332515",
+      "title": "Bio-Ethanol Tabletop Fireplace Item",
+      "price": "89.00",
+      "desc": "",
+      "id": 19
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/BF-600-ALB_1_750x.jpg?v=1680332654",
+      "title": "Benest BF-600 Detachable Foot ",
+      "price": "599.00",
+      "desc": "",
+      "id": 20
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/LAMP_W_CLOCK_B_WHITELAMP_BLACKCLOCK_1_750x.jpg?v=1675795633",
+      "title": "Loftie Nightstand Bundle - Clock and Lamp",
+      "price": "325.00",
+      "desc": "",
+      "id": 21
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/8960_black_4_750x.jpg?v=1675775218",
+      "title": "LELO Loki Wave 2 Prostate Massager",
+      "price": "175.20",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 22
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/6466_1_750x.jpg?v=1675281892",
+      "title": "UpCore Smart Posture Corrector",
+      "price": "249.00",
+      "desc": "",
+      "id": 23
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/glowserum_1_750x.jpg?v=1675473863",
+      "title": "HigherDOSE Glow Serum",
+      "price": "79.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 24
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/600074901878_dot_red_1_750x.jpg?v=1678305309",
+      "title": "Minimal Enamelled Cast Iron Teapot",
+      "price": "145.00",
+      "desc": "",
+      "id": 25
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/8922_black_1_750x.jpg?v=1675106428",
+      "title": "LELO Tor 3 Couples Ring Black",
+      "price": "127.20",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 26
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/MAT-CHK-CHESS_Black_2_750x.jpg?v=1678821117",
+      "title": "Giant Checkers, Chess, & Chess Tac Toe for Indoors ",
+      "price": "49.99",
+      "desc": "",
+      "id": 27
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/KUBB-MALLET-CRATE-NAT_Natural_1_750x.jpg?v=1678821049",
+      "title": "Kubb Yard Game With Crate",
+      "price": "79.99  ",
+      "desc": "",
+      "id": 28
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/AWS09F_1_750x.jpg?v=1675306470",
+      "title": "Aluratek WiFi Touchscreen Digital Photo Frame",
+      "price": "149.99",
+      "desc": "",
+      "id": 29
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/19332159_submarine_grey_3_750x.jpg?v=1675807706",
+      "title": "Midtown Foam Classroom Chair",
+      "price": "400.00",
+      "desc": "",
+      "id": 30
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/peme501sp001_gray_1_750x.jpg?v=1675774688",
+      "title": "Navien Mate Bed Warmer Heated Mattress Pad",
+      "price": "279.20",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 31
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/peqm582sms003_black_1_750x.jpg?v=1675259725",
+      "title": "Navien Mate Bed Warmer Water Heated Mattress Pad",
+      "price": "375.20",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 32
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/600074901731_STEEL_1_750x.jpg?v=1673572593",
+      "title": "Minimal Stainless Steel Flatware Set of 20",
+      "price": "135.00",
+      "desc": "",
+      "id": 33
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/600074901786_STEEL_1_750x.jpg?v=1673572880",
+      "title": "Minimal Stainless Steel Steak Knife Set of 8",
+      "price": "90.00",
+      "desc": "",
+      "id": 34
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/95725_3_750x.jpg?v=1680014792",
+      "title": "L'Atelier Du Vin Oeno Motion Nomad Wine Corkscrew",
+      "price": "480.00",
+      "desc": "",
+      "id": 35
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/f28_1_750x.jpg?v=1675473872",
+      "title": "Gratiae Refreshing After Shave Gel for Men",
+      "price": "39.99",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 36
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/f26_1_750x.jpg?v=1675473872",
+      "title": "Gratiae Nourishing Cream for Men",
+      "price": "39.99",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 37
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/gomat-v1_1_750x.jpg?v=1675473860",
+      "title": "HigherDOSE Infrared PEMF Go Mat",
+      "price": "599.00 ",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 38
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/slny03_1_750x.jpg?v=1669766363",
+      "title": "Solaris Laboratories NY \"It's Lit\" LED 3-in-1 Facial Massager",
+      "price": "85.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 39
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/slny02_2_750x.jpg?v=1675473841",
+      "title": "Solaris Laboratories NY Intensive LED Hair Growth Brush",
+      "price": "70.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 40
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248006091_2_750x.jpg?v=1665170180",
+      "title": "Glow Beauty Boosting Eye Mask Anti-Aging Copper Technology",
+      "price": "35.00",
+      "desc": "Final Sale - No Exchanges or Returns",
+      "id": 41
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/4_076d4ad8-d89e-47ad-a865-578299c9cff2_750x.jpg?v=1669208385",
+      "title": "L'Atelier du Vin - Soft Machine Nomad  Corkscrew",
+      "price": "380.00",
+      "desc": "",
+      "id": 42
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/2_7c9ce143-bcda-4830-8307-b7d4cb9802ce_750x.jpg?v=1669209309",
+      "title": "L'Atelier du Vin - Exploreur Œnology Set of Four Wine Glasses",
+      "price": "85.00",
+      "desc": "",
+      "id": 43
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/hm-ts001-001_walnut_9_750x.jpg?v=1669384104",
+      "title": "Koble - Larsen Smart TV Stand with Built-in Sound Bar Table Furniture",
+      "price": "999.99",
+      "desc": "",
+      "id": 44
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/unq-wmic_1_750x.jpg?v=1668598223",
+      "title": "UNIQU Wireless Microphone for iPhone",
+      "price": "59.99",
+      "desc": "",
+      "id": 45
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/57pabpre8_3_750x.jpg?v=1668176382",
+      "title": "PUTT-A-BOUT Premier 8 Golf Putting Mat",
+      "price": "49.99",
+      "desc": "",
+      "id": 46
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/57pabxl312_2_750x.jpg?v=1668176393",
+      "title": "PUTT-A-BOUT XL312 Golf Putting Mat",
+      "price": "84.99",
+      "desc": "",
+      "id": 47
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/unq-bundle2_1_f715704e-c951-4d10-a635-c088f6ad8308_750x.jpg?v=1668380912",
+      "title": "UNIQU Lighting Kit Content Creator",
+      "price": "184.99",
+      "desc": "",
+      "id": 48
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/unq-bundle_1_0eee1792-07bb-467b-afe0-6324936395a5_750x.jpg?v=1668380906",
+      "title": "UNIQU Lighting Content Creator",
+      "price": "120.00",
+      "desc": "",
+      "id": 49
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/T1-79WH_White_5_750x.jpg?v=1668382496",
+      "title": "Pinned Golf Prism Rangefinder",
+      "price": "229.99",
+      "desc": "",
+      "id": 50
     }
+  ],
+  "wellness" : [
+        {
+          "id": 1,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/cell2_750x.jpg?v=1669363289",
+          "title": "Glo Serum910 Revitalizing Legs Serum",
+          "price": 49.90,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 2,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/oil910_1_750x.jpg?v=1669363289",
+          "title": "Glo Oil910 - Anti Cellulite and Fat Burner Oil",
+          "price": 59.90,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 3,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248007036_4_750x.jpg?v=1665170179",
+          "title": "iluminage Youth Activator Infrared LED ",
+          "price": 125.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 4,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/3_6b2131aa-2175-43d3-99cd-2a67a8abaa86_750x.jpg?v=1669766363",
+          "title": "Solaris Laboratories NY 'HowToGlow' LED Light Therapy Mask",
+          "price": 115.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 5,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/814606020764_1_750x.jpg?v=1660146423",
+          "title": "ORA MasKerade Duet Facial Steamer & Organic Mask Maker",
+          "price": 99.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 6,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248005582_4_750x.jpg?v=1665170175",
+          "title": "iluminage Precise Touch Permanent Hair Removal System",
+          "price": 299.90,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 7,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248006091_2_750x.jpg?v=1665170180",
+          "title": "mē Sleek Professional At Home Face Hair Reduction System",
+          "price": 299.90,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 8,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248007104_03_750x.jpg?v=1665170181",
+          "title": "Liberator Esse Sensual Lounge Chair",
+          "price": 499.99,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 9,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/15392549_merlot_1_1000x.jpg?v=1642115672",
+          "title": "AmaMedic Yoga Chair",
+          "price": 999.0,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 10,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/yoga-chair-br_dark_brown_1_750x.jpg?v=1640284739",
+          "title": "Osaki LK-219 Spa Capsule",
+          "price": 3199.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 11,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/yoga-chair-br_dark_brown_1_750x.jpg?v=1640284739",
+          "title": "Stimunail Nail Wellness Device",
+          "price": 68.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 12,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/fb_625ha_blue_10_1000x.jpg?v=1659028857",
+          "title": "Homedics Shower Bliss Foot Spa with Heat Boost Power",
+          "price": 89.90,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 13,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/NK-MP2141_1_750x.jpg?v=1659030567",
+          "title": "Cellreturn Neckle Ray Plus LED Device",
+          "price": 900.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 14,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/6558_5_750x.jpg?v=1664953230",
+          "title": "RolLift Micocurrent Symmetrical Facial Contour Device with LED",
+          "price": 259.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        },
+        {
+          "id": 15,
+          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/AM-4610_white_1_750x.jpg?v=1635961813",
+          "title": "AmaMedic AM-4610 Eye Massager",
+          "price": 129.00,
+          "description": "Final Sale - No Exchanges or Returns"
+        }
   ],
   "users": [
     {
@@ -54,20 +472,6 @@
       "lname": "Hupare",
       "email": "sharvarihupare123@gmail.com",
       "password": "s12345"
-    },
-    {
-      "id": "vinu",
-      "fname": "vinayak",
-      "lname": "hupare",
-      "email": "vinayak12@gmail.com",
-      "password": "v12345"
-    },
-    {
-      "id": "Sharvari11",
-      "fname": "Sharvari",
-      "lname": "Hupare",
-      "email": "sharvarihupare151@gmail.com",
-      "password": "sh123"
     }
   ],
   "admin": [

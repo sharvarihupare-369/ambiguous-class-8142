@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import ImageCarousal from "./ImageCarousal";
 import { Heading } from "@chakra-ui/react";
 import "./Sliders.css";
+import {Box, Divider} from "@chakra-ui/react"
 
 function Sliders() {
   let cont = document.querySelector(".product_container");
@@ -26,12 +27,31 @@ function Sliders() {
 
   return (
     <>
-        <Heading as="h4" size="md" textAlign={"center"} color="gray.600" mt="50px" fontWeight="300" textTransform={"Uppercase"} >best sellers</Heading>
+      <Box p={7} height="50px">
+        <Divider
+          orientation="horizontal"
+          border="1px solid black"
+          w="80%"
+          m="auto"
+          mt="20px"
+        />
+      </Box>
+      <Heading
+        as="h2"
+        size="md"
+        textAlign={"center"}
+        color="gray.600"
+        mt="50px"
+        fontWeight="400"
+        textTransform={"Uppercase"}
+      >
+        best sellers
+      </Heading>
       <div className="product_carousal">
         <button className="prev-btn" onClick={handlePrev}>
-         <FontAwesomeIcon icon={faAngleLeft} size="xl" />
+          <FontAwesomeIcon icon={faAngleLeft} size="xl" />
         </button>
-        <button className="next-btn" onClick={handleNext} >
+        <button className="next-btn" onClick={handleNext}>
           {/* <p>&gt;</p> */}
           <FontAwesomeIcon icon={faAngleRight} size="xl" />
         </button>
@@ -73,7 +93,7 @@ function Sliders() {
               "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/11361101_black_1_800x.jpg?v=1602008915"
             }
           />
-         
+
           <ImageCarousal
             cardno="7"
             image={

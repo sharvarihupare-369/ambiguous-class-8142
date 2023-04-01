@@ -1,9 +1,12 @@
 
 import React from 'react'
+import Product from '../Products/Product'
 
 function New() {
   return (
-    <div>New</div>
+    <div>
+      <Product/>
+    </div>
   )
 }
 

@@ -188,9 +188,7 @@ function Signup() {
 
         {/* Login  */}
 
-        <div style={{marginTop:"10px", border :"1px solid gray", width:"20%" ,textAlign:"center", padding:"5px" ,fontSize:"18px", borderRadius:"5px" }}>
-            <Link to="/admin">Admin Login</Link>
-            </div>
+        
 
 
         <div className="parentCont animate__animated animate__backInDown " >
@@ -235,10 +233,15 @@ function Signup() {
                 </button>
                 
               </form>
-              
-          
-            </div>
 
+              <div style={{marginTop:"10px",  width:"30%" ,textAlign:"center", padding:"5px" ,fontSize:"18px", borderRadius:"5px" }}>
+            <Link to="/admin">Admin Login</Link>
+            </div>
+            
+            </div>
+ 
+          
+          
 
 
             <div className="formDiv">

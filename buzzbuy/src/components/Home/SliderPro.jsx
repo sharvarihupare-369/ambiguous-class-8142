@@ -1,3 +1,4 @@
+import { Box, Divider } from "@chakra-ui/react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const responsive = {
@@ -20,7 +21,14 @@ const responsive = {
 };
 
 function SliderPro() {
+
   return (
+    <>
+    <Box p={7}  height='50px' >
+
+    <Divider orientation="horizontal" border="1px solid black" w="80%" m="auto" mt="20px"/>
+    </Box>
+    <h2 style={{color:"#4A5568" , fontWeight:"300" , textAlign:"center", marginTop:"30px"}} >Featured Brands</h2>
     <div style={{width:"80%", margin:"auto" , marginTop:"30px" }}>
       <Carousel responsive={responsive} >
         <div style={{borderRadius:"30px" , marginRight:"20px"}}>
@@ -68,6 +76,7 @@ function SliderPro() {
                 
       </Carousel>
     </div>
+    </>
   );
 }
 

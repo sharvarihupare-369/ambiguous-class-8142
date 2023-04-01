@@ -9,35 +9,28 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
-//  const links = [
-//   { path: "/", text: "Home" },
-//   { path: "/new", text: "New" },
-//   { path: "/wellness", text: "Wellness" },
-//   { path: "/sleep", text: "Sleep" },
-//   { path: "/wine&bar", text: "Wine&bar" },
-//   { path: "/fitness", text: "Fitness" },
-//   { path: "/outdoor", text: "Outdoor" },
-//   { path: "/technology", text: "Technology" },
-//   { path: "/travel", text: "Travel" },
-//   { path: "/accessories", text: "Accessories" },
-//   { path: "/entertainment", text: "Entertainment" },
-//   { path: "/gifts", text: "Gifts" },
-//   { path: "/sale", text: "Sale" },
-// ];
+import {useState} from "react"
 
-function Navbar() {
-  // const defaultStyle = {
-  //   textDecoration: "none",
-  //   color: "#50514F",
-  // };
 
-  // const activeStyle = {
-  //   textDecoration: "underline",
-  //   textDecorationThickness: "3px",
-  //   // padding : "4px",
-  //   color: "black",
-  // };
 
+function Navbar({data,setData}) {
+  console.log(data)
+
+  const [inputData,setInputData] = useState("")
+  
+  
+  //  let filterData =  data.filter((ele) => {
+  //   return ele.title.toLowerCase() == inputData.toLowerCase()
+  // })
+
+
+
+  // setData(filterData)
+
+ 
+   
+ 
+   
  
     const handleUser = () =>{
       navigate("/signup")
@@ -76,6 +69,8 @@ function Navbar() {
           <Box w="40%">
             <Flex>
               <Input
+                onChange={(e)=>setInputData(e.target.value)  }
+                
                 variant="outline"
                 placeholder="Search"
                 border="2px solid"
@@ -84,21 +79,24 @@ function Navbar() {
                 bg="white"
               />
 
-              <Box pos="absolute" top="64px" right="510px">
+              <Box pos="absolute" top="64px" right="530px">
                 <FontAwesomeIcon icon={faSearch} color="grey" />
               </Box>
             </Flex>
           </Box>
 
-          <Flex justifyContent="space-around" mr="5%">
+          <Flex justifyContent="space-around" mr="8%">
             <Box p="10px"  onClick={handleUser}>
               <FontAwesomeIcon icon={faUser} size="xl" color="grey" />
             </Box>
             <Box p="10px">
               <FontAwesomeIcon icon={faHeart} size="xl" color="grey" />
             </Box>
-            <Box p="10px 15px" bg="green.300" borderRadius="5px">
+            <Box p="10px 20px" bg="green.300" borderRadius="5px">
               <FontAwesomeIcon icon={faCartShopping} size="xl" color="white" />
+              <Box w="20px" h="10px"  borderRadius={"50%"}  color="white" textAlign={"center"} position={"relative"} bottom="20px" left="20px" >
+                0
+              </Box>
             </Box>
           </Flex>
         </Flex>
