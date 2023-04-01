@@ -19,8 +19,19 @@ import {
   import { Divider } from "@chakra-ui/react";
   
   import React from "react";
+import { useNavigate } from "react-router-dom";
+
+
   
   function Footer() {
+ 
+    const navigate = useNavigate()
+
+ 
+    const handleClickBtn = () => {
+          navigate('/signup')
+    }
+
     return (
       <Box bg="blackAlpha.700" p="100px" mt="20px" >
         <HStack>
@@ -48,7 +59,7 @@ import {
                   mr="100px"
                   color="white"
                   fontSize="15px"
-  
+                  onClick={handleClickBtn}
   
                 >
                   SIGN UP NOW

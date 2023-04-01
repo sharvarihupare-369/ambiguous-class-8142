@@ -6,11 +6,12 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {Link, useNavigate} from "react-router-dom"
 import "../Styles/Admin.css"
+import {Box} from "@chakra-ui/react"
 
 function Addproduct() {
 
 
-   const [proid,setProid] = useState("")
+ 
    const [image,setImage] = useState("")
    const [title,setTitle] = useState("")
    const [price,setPrice] = useState("")
@@ -20,7 +21,7 @@ function Addproduct() {
    
    const handleSubmit = (e) => {
      e.preventDefault();
-     let productObj = {proid,image,title,price,desc}
+     let productObj = {image,title,price,desc}
     if(validate()){
 
       fetch(`http://localhost:3000/products`, {
@@ -51,9 +52,9 @@ function Addproduct() {
   }
 
   const cleanup = () => {
-     setProid("")
+    
      setImage("")
-     setDesc("")
+    //  setDesc("")
      setPrice("")
      setTitle("")
   }
@@ -62,13 +63,8 @@ function Addproduct() {
 
    const validate = () => {
     let result = true;
-    if (proid === "" || proid == null) {
-      result = false;
-      toast.warning("Please Enter ProductId",{
-        position: toast.POSITION.TOP_CENTER,
-      });
-    }
-    else if (image === "" || image == null) {
+    
+     if (image === "" || image == null) {
       result = false;
       toast.warning("Please Enter Image",{
         position: toast.POSITION.TOP_CENTER,
@@ -86,12 +82,12 @@ function Addproduct() {
         position: toast.POSITION.TOP_CENTER,
       });
     }
-    else if (desc === "" || desc == null) {
-      result = false;
-      toast.warning("Please Enter Description",{
-        position: toast.POSITION.TOP_CENTER,
-      });
-    }
+    // else if (desc === "" || desc == null) {
+    //   result = false;
+    //   toast.warning("Please Enter Description",{
+    //     position: toast.POSITION.TOP_CENTER,
+    //   });
+    // }
     return result;
   };
 
@@ -103,17 +99,14 @@ function Addproduct() {
 
   return (
    <>
-    
+    <Box className='formDiv' bgGradient="linear(blackAlpha.300 0%, gray.200 10%, blackAlpha.100 50%)">
+
     <div className='adminDiv'>
 
      <form onSubmit={handleSubmit}>
-      <div >
-       <label>id</label>
-          <br/>
-       <input type="text"  value={proid} onChange={(e) =>setProid(e.target.value)}  className="inputad" />
-      </div>
+      
       <div>
-      <label>image</label>
+      <label>Image</label>
       <br/>
        <input type="text" value={image} onChange={(e) =>setImage(e.target.value)}  className="inputad"  />
       </div>
@@ -137,8 +130,9 @@ function Addproduct() {
  
     </div>
     <div>
-      <button onClick={handleProduct}>GO TO PRODUCT PAGE</button>
+      <button style={{marginLeft:"90px"}} className='submitBtn' onClick={handleProduct}>GO TO PRODUCT PAGE</button>
     </div>
+    </Box>
    </>
   )
 }
