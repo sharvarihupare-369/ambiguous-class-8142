@@ -20,15 +20,32 @@ import {
   VStack,
   Flex,
 } from "@chakra-ui/react";
+import { useContext } from 'react';
+import { CartContext } from '../../contexts/CartProvider';
 
-function ProductCard({ data, page, setPage, totalcount, totalpages }) {
+function ProductCard({ data, page, setPage, setData, totalcount, totalpages }) {
   // console.log(totalcount)
+  const { cart, removeItem } = useContext(CartContext);
+
+  const handleAdd = (data1) =>{
+         cart.push(data1)
+  }
+  
+  const ascEvent = () => {
+    let data2 = [...data]
+    console.log(data2)
+    if(data.length > 0){
+      data.sort((a,b) => a.price - b.price )
+      setData(data)
+    }
+  }
+  
 
   return (
     <>
       <Box w="10%" ml="1250px" mt="50px" mb="30px">
         <Select placeholder="Featured">
-          <option value="option3">Lowest Price</option>
+          <option onChange={ascEvent} value="option3">Lowest Price</option>
           <option value="option4">Highest Price</option>
           <option value="option5">Alphabetical: A-Z</option>
           <option value="option6">Alphabetical: Z-A</option>
@@ -92,6 +109,7 @@ function ProductCard({ data, page, setPage, totalcount, totalpages }) {
                         Buy now
                       </Button>
                       <Button
+                        onClick={() =>handleAdd({...product,quantity:1})}
                         bg="#388E3C"
                         color="white"
                         fontSize="15px"

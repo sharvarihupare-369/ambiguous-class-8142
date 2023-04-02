@@ -6,15 +6,19 @@ import reportWebVitals from './reportWebVitals';
 import {ChakraProvider} from "@chakra-ui/react";
 import {BrowserRouter } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify';
+import CartProvider from './contexts/CartProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <ChakraProvider>
+  <CartProvider>
+
      <BrowserRouter>
      {/* <ToastContainer> */}
      <App />
      {/* </ToastContainer> */}
      </BrowserRouter>
+  </CartProvider>
    </ChakraProvider>
 );
 

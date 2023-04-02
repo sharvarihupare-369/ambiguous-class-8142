@@ -19,9 +19,8 @@ import Signup from './SigninFun/Signup'
 import Addproduct from '../Pages/Addproduct'
 import Admin from './Admin'
 import Product from '../Pages/Products/Product'
-import WellnessProduct from '../Pages/Products/Wellness/WellnessProducts'
-import WellProductCard from '../Pages/Products/Wellness/WellProductCard'
-import AddWellProduct from '../Pages/Products/Wellness/AddWellProduct'
+import CartPro from '../Pages/CartPro'
+import Payment from './Payment/Payment'
 
 
 function AllRoutes() {
@@ -45,8 +44,7 @@ function AllRoutes() {
             <Route path="/signup" element={<Signup/>} />
             <Route path="/admin" element={<Admin/>} />
             <Route path="/addproduct" element={<Addproduct/>} />
-            {/* <Route path="/addwellnesspro" element={<AddWellProduct/>} /> */}
-            {/* <Route path="/product" element={<Product/>} /> */}
+            <Route path='/payment' element={<Payment/>} />
         </Routes>
     </div>
   )

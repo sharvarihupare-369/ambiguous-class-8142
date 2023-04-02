@@ -14,13 +14,15 @@ import { ToastContainer } from 'react-toastify';
 import Admin from './components/Admin';
 import AllRoutes from './components/AllRoutes';
 import { Route, Switch , Routes } from 'react-router-dom';
+// import Payment from './components/Payment/Payment';
+
+
 
 
 function App() {
   return (
     <div className="App" >
       <AllRoutes/>
-
      <ToastContainer />
     </div>
   );

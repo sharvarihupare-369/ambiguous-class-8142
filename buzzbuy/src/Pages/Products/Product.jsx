@@ -37,7 +37,7 @@ function Product() {
   return (
     <div>
       <Navbar data={detail} setData={setDetail} />
-       <ProductCard data={detail} page={page} totalpages={totalPage} setPage={setPage} totalcount ={totalC} />
+       <ProductCard data={detail} page={page} setData={setDetail} totalpages={totalPage} setPage={setPage} totalcount ={totalC} />
        <Footer/>
        
     </div>
