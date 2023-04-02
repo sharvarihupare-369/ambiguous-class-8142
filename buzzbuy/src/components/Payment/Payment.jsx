@@ -3,12 +3,15 @@ import { Heading ,Box, Text, Input,Checkbox, CheckboxGroup, Select , Flex , Imag
  , Highlight} from '@chakra-ui/react'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Navbar from '../Home/Navbar'
+import Footer from '../Home/Footer'
 
 
 function Payment() {
     const navigate = useNavigate()
   return (
     <div>
+      <Navbar/>
         
         <Box w="90%" m="auto" display={"flex"} >
         <Box w="60%" p="50px" color="blackAlpha.700"  boxShadow='sm' rounded='xl' bg='white'>
@@ -92,6 +95,7 @@ function Payment() {
         </Box>
 
         </Box>
+        <Footer/>
     </div>
   )
 }
