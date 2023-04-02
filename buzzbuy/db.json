@@ -351,112 +351,112 @@
       "id": 50
     }
   ],
-  "wellness" : [
-        {
-          "id": 1,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/cell2_750x.jpg?v=1669363289",
-          "title": "Glo Serum910 Revitalizing Legs Serum",
-          "price": 49.90,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 2,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/oil910_1_750x.jpg?v=1669363289",
-          "title": "Glo Oil910 - Anti Cellulite and Fat Burner Oil",
-          "price": 59.90,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 3,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248007036_4_750x.jpg?v=1665170179",
-          "title": "iluminage Youth Activator Infrared LED ",
-          "price": 125.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 4,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/3_6b2131aa-2175-43d3-99cd-2a67a8abaa86_750x.jpg?v=1669766363",
-          "title": "Solaris Laboratories NY 'HowToGlow' LED Light Therapy Mask",
-          "price": 115.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 5,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/814606020764_1_750x.jpg?v=1660146423",
-          "title": "ORA MasKerade Duet Facial Steamer & Organic Mask Maker",
-          "price": 99.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 6,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248005582_4_750x.jpg?v=1665170175",
-          "title": "iluminage Precise Touch Permanent Hair Removal System",
-          "price": 299.90,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 7,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248006091_2_750x.jpg?v=1665170180",
-          "title": "mē Sleek Professional At Home Face Hair Reduction System",
-          "price": 299.90,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 8,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248007104_03_750x.jpg?v=1665170181",
-          "title": "Liberator Esse Sensual Lounge Chair",
-          "price": 499.99,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 9,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/15392549_merlot_1_1000x.jpg?v=1642115672",
-          "title": "AmaMedic Yoga Chair",
-          "price": 999.0,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 10,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/yoga-chair-br_dark_brown_1_750x.jpg?v=1640284739",
-          "title": "Osaki LK-219 Spa Capsule",
-          "price": 3199.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 11,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/yoga-chair-br_dark_brown_1_750x.jpg?v=1640284739",
-          "title": "Stimunail Nail Wellness Device",
-          "price": 68.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 12,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/fb_625ha_blue_10_1000x.jpg?v=1659028857",
-          "title": "Homedics Shower Bliss Foot Spa with Heat Boost Power",
-          "price": 89.90,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 13,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/NK-MP2141_1_750x.jpg?v=1659030567",
-          "title": "Cellreturn Neckle Ray Plus LED Device",
-          "price": 900.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 14,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/6558_5_750x.jpg?v=1664953230",
-          "title": "RolLift Micocurrent Symmetrical Facial Contour Device with LED",
-          "price": 259.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        },
-        {
-          "id": 15,
-          "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/AM-4610_white_1_750x.jpg?v=1635961813",
-          "title": "AmaMedic AM-4610 Eye Massager",
-          "price": 129.00,
-          "description": "Final Sale - No Exchanges or Returns"
-        }
+  "wellness": [
+    {
+      "id": 1,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/cell2_750x.jpg?v=1669363289",
+      "title": "Glo Serum910 Revitalizing Legs Serum",
+      "price": 49.9,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/oil910_1_750x.jpg?v=1669363289",
+      "title": "Glo Oil910 - Anti Cellulite and Fat Burner Oil",
+      "price": 59.9,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248007036_4_750x.jpg?v=1665170179",
+      "title": "iluminage Youth Activator Infrared LED ",
+      "price": 125,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/3_6b2131aa-2175-43d3-99cd-2a67a8abaa86_750x.jpg?v=1669766363",
+      "title": "Solaris Laboratories NY 'HowToGlow' LED Light Therapy Mask",
+      "price": 115,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 5,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/814606020764_1_750x.jpg?v=1660146423",
+      "title": "ORA MasKerade Duet Facial Steamer & Organic Mask Maker",
+      "price": 99,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248005582_4_750x.jpg?v=1665170175",
+      "title": "iluminage Precise Touch Permanent Hair Removal System",
+      "price": 299.9,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248006091_2_750x.jpg?v=1665170180",
+      "title": "mē Sleek Professional At Home Face Hair Reduction System",
+      "price": 299.9,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 8,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/806248007104_03_750x.jpg?v=1665170181",
+      "title": "Liberator Esse Sensual Lounge Chair",
+      "price": 499.99,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 9,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/15392549_merlot_1_1000x.jpg?v=1642115672",
+      "title": "AmaMedic Yoga Chair",
+      "price": 999,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 10,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/yoga-chair-br_dark_brown_1_750x.jpg?v=1640284739",
+      "title": "Osaki LK-219 Spa Capsule",
+      "price": 3199,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 11,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/yoga-chair-br_dark_brown_1_750x.jpg?v=1640284739",
+      "title": "Stimunail Nail Wellness Device",
+      "price": 68,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 12,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/fb_625ha_blue_10_1000x.jpg?v=1659028857",
+      "title": "Homedics Shower Bliss Foot Spa with Heat Boost Power",
+      "price": 89.9,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 13,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/NK-MP2141_1_750x.jpg?v=1659030567",
+      "title": "Cellreturn Neckle Ray Plus LED Device",
+      "price": 900,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 14,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/6558_5_750x.jpg?v=1664953230",
+      "title": "RolLift Micocurrent Symmetrical Facial Contour Device with LED",
+      "price": 259,
+      "description": "Final Sale - No Exchanges or Returns"
+    },
+    {
+      "id": 15,
+      "image": "https://cdn.shopify.com/s/files/1/0262/2226/4423/products/AM-4610_white_1_750x.jpg?v=1635961813",
+      "title": "AmaMedic AM-4610 Eye Massager",
+      "price": 129,
+      "description": "Final Sale - No Exchanges or Returns"
+    }
   ],
   "users": [
     {
@@ -472,6 +472,13 @@
       "lname": "Hupare",
       "email": "sharvarihupare123@gmail.com",
       "password": "s12345"
+    },
+    {
+      "id": "Atharv",
+      "fname": "Atharv",
+      "lname": "Hupare",
+      "email": "atharv@gmail.com",
+      "password": "a12345"
     }
   ],
   "admin": [

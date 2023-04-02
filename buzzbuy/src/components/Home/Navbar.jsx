@@ -23,21 +23,18 @@ function Navbar({data,setData}) {
   //   return ele.title.toLowerCase() == inputData.toLowerCase()
   // })
 
-
-
   // setData(filterData)
 
- 
-   
- 
-   
- 
     const handleUser = () =>{
       navigate("/signup")
 
     }    
      const navigate = useNavigate()
-  
+     
+
+     const handleCart = () => {
+      navigate("/payment")
+     }
 
   return (
     <div>
@@ -61,7 +58,8 @@ function Navbar({data,setData}) {
               borderRadius="10px"
               border="1px solid"
               borderColor="blackAlpha.300"
-              src={require("G:/Brookstonewebsite/mybrookstone/src/Assets/logo/BuzzBuy.png")}
+              // src={require("G:/Brookstonewebsite/mybrookstone/src/Assets/logo/BuzzBuy.png")}
+              src={require("C:/Users/ADMIN/ambiguous-class-8142/buzzbuy/src/Assets/logo/BuzzBuy.png")}
               alt="logo"
             />
           </Box>
@@ -92,7 +90,7 @@ function Navbar({data,setData}) {
             <Box p="10px">
               <FontAwesomeIcon icon={faHeart} size="xl" color="grey" />
             </Box>
-            <Box p="10px 20px" bg="green.300" borderRadius="5px">
+            <Box p="10px 20px" onClick={handleCart} bg="green.300" borderRadius="5px">
               <FontAwesomeIcon icon={faCartShopping} size="xl" color="white" />
               <Box w="20px" h="10px"  borderRadius={"50%"}  color="white" textAlign={"center"} position={"relative"} bottom="20px" left="20px" >
                 0
